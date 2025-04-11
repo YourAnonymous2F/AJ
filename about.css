@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #008080;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+main {
+    background-color: #fffdd0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    padding: 10px 20px;
+}
+
+#details {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.table{
+    margin-top: 15px;
+}
+
+.table table{
+    text-align: left;
+}
+
+table, th, tr, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+
+.name, .mail {
+    background: darkgray;
+    border-radius: 8px;
+    width: 310px;
+    height: 25px;
+    margin: 20px 0;
+}
+
+textarea{
+    background: darkgrey;
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+    margin-top: 5px;
+    padding: 5px 0 0 5px;
+    outline: none;
+}
+
+#f-name, #e-mail {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 0;
+    padding-left: 5px;
+    width: 305px;
+}
+
+.submit{
+    background: darkgray;
+    border-radius: 50px;
+    text-align: center;
+    width: 90px;
+    height: 35px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.submit-1{
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 35px 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer #copy, a {
+    color: #cccccc;
+}   
+
+a:hover{
+    color: whitesmoke;
+}
